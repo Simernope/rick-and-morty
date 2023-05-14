@@ -1,0 +1,22 @@
+.container{
+  padding: 20px 5px;
+  min-height: calc(100vh - 120px);
+  .imgFluid{
+    width: 100%;
+    height: auto;
+  }
+  .card{
+    .showSpan{
+      display: none;
+    }
+    &:hover{
+      .showSpan{
+        z-index: 100;
+        display: block;
+      }
+
+    }
+  }
+
+
+}

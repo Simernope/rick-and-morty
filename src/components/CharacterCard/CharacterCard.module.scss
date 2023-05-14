@@ -1,0 +1,10 @@
+.cardBody{
+  display: flex;
+  flex-direction: column;
+  .cardTitle{
+    flex-grow: 1;
+  }
+  .list{
+    margin-bottom: 5px;
+  }
+}
